@@ -1,0 +1,78 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #9ACAC7 ;
+}
+
+.resume-builder {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.resume-form {
+    display: grid;
+    gap: 15px;
+    grid-template-columns: 1fr 1fr;
+}
+
+label {
+    font-weight: bold;
+    color: #333;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    grid-column: span 2; /* Make the button span both columns */
+    padding: 12px;
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+.resume-box {
+    margin-top: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    overflow: hidden;
+}
+
+.resume-box .box-header {
+    background-color: rgb(111, 154, 166);
+    color: #fff;
+    padding: 15px;
+    /* text-align: center; */
+}
+
+.resume-box .box-header h2 {
+    margin: 0;
+}
+
+.resume-box .box-section {
+    padding: 15px;
+    border-top: 1px solid #ccc;
+}
+
+.resume-box .box-section h3 {
+    color: rgb(111, 154, 166);
+    margin-top: 0;
+}
